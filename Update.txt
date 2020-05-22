@@ -8,3 +8,4 @@ Pure Css Hamburger Menu
 ● Side Overlay Animation
 ● Qoutes
 ●Ignore Purescript.
+●Download Zip file.
