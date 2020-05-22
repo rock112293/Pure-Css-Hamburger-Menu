@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Balsamiq Sans', sans-serif;
+	overflow: hidden;
+}
+
+.container{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(43,199,188,1) 0%, rgba(219,249,203,1) 72.9% );
+	background-size: cover;
+	background-position: 50% 36%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content{
+	position: relative;
+    max-width: 700px;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.content h2{
+  font-family: 'Balsamiq Sans', cursive;
+	color: #fff;
+	font-size: 3.0rem;
+	position: relative;
+	margin-bottom: 0.8rem;
+	animation: heading;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+@keyframes heading{
+  0% {top: -100px}
+  100% {top: 0}
+}
+.content p{
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 100;
+	font-family: 'Balsamiq Sans', sans-serif;
+	position: relative;
+	animation-name: content;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+@keyframes content{
+  0% {left: -1000px}
+  100% {left: 0}
+}
+.aside{
+  color: #fff;
+  padding: 1.5rem;
+  opacity: 0;
+  animation-name: aside;
+	animation-duration: 4s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	
+	transition-property: transform;
+	transition-duration: 1s;
+}
+@keyframes aside{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+  
+.btn{
+	padding: 0.75rem 1.25rem;
+	text-transform: uppercase;
+	color: green;
+	font-weight: 500;
+	font-size: 1.rem;
+	font-family: 'Balsamiq Sans', sans-serif;
+	text-decoration: none;
+	background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(43,199,188,1) 0%, rgba(219,249,203,1) 72.9% );
+	display: inline-block;
+	margin-top: 0.8rem;
+	cursor: pointer;
+	transition: .3s;
+	border-radius: 30px;
+	opacity: 0;
+	animation-name: btn;
+	animation-duration: 3s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	
+	transition-property: transform;
+	transition-duration: 1s;
+}
+@keyframes btn{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+.btn:hover {
+	transform: rotateY(360deg);
+}

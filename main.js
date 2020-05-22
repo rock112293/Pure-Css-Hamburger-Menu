@@ -1,0 +1,1 @@
+alert("This Code is licensed under MIT.");
