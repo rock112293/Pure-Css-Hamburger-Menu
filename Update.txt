@@ -5,7 +5,8 @@ Pure Css Hamburger Menu
 
 ● Menu Toggle.
 ● Pure Css featured.
-● Side Overlay Animation
-● Qoutes
-●Ignore Purescript.
-●Download Zip file.
+● Side Overlay Animation.
+● Qoutes.
+● Ignore Purescript.
+● Download Zip file.
+● Add Actual Screenshot photos.
