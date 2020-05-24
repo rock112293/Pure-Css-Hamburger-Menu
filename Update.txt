@@ -10,3 +10,5 @@ Pure Css Hamburger Menu
 ● Ignore Purescript.
 ● Download Zip file.
 ● Add Actual Screenshot photos.
+● Fix browser preview.
+● Change link css style name.
